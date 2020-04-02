@@ -7,7 +7,7 @@ provider "aws" {
 terraform {
    backend "s3" {
    bucket = "dh-tf-remote-state-bucket"
-   region = "us-east-1"
+   region = "us-east-2"
   }
 }
 
